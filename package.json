@@ -1,7 +1,7 @@
 {
   "name": "ecommerceapi",
   "version": "1.0.0",
-  "description": "",
+  "description": "��#\u0000 \u0000e\u0000-\u0000c\u0000o\u0000m\u0000m\u0000e\u0000r\u0000c\u0000e\u0000a\u0000p\u0000i\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js"
@@ -14,5 +14,13 @@
     "express": "^4.17.3",
     "mongoose": "^6.2.9",
     "nodemon": "^2.0.15"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SantiagoMorelli/e-commerceapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SantiagoMorelli/e-commerceapi/issues"
+  },
+  "homepage": "https://github.com/SantiagoMorelli/e-commerceapi#readme"
 }
