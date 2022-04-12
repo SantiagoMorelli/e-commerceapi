@@ -9,3 +9,4 @@ start aplication:
 node index.js
 
 crypto-js
+jsonwebtoken

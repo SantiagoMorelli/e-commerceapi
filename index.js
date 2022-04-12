@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 //import router
 const userRoute = require('./routes/user');
+const productRoute = require('./routes/product');
 const authRoute = require('./routes/auth');
 
 dotenv.config();
@@ -19,7 +20,10 @@ mongoose
 // });
 
 app.use(express.json()); //para poder obtener json
-app.use('/api/users', userRoute); //cuando valla al endpint api/user va a abrir userRoute.
+app.use('/api/users', userRoute);
+app.use('/api/products', productRoute);
+
+//cuando valla al endpint api/user va a abrir userRoute.
 app.use('/api/auth', authRoute);
 
 app.listen(process.env.PORT || 5000, () => {
